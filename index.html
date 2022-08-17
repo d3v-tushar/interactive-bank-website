@@ -4,20 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baap Er Bank</title>
+    <title>Simple Interactive Bank</title>
+    <!-- TailWind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-    <h1 class="text-5xl text-center mt-6">Welcome to your <span class="font-semibold text-violet-600">Baap Er Bank</span>!!!</h1>
+    <h1 class="text-5xl text-center mt-6">Welcome to your <span class="font-semibold text-violet-600">Bulbuli Bank</span>!!!</h1>
 </header>
     <main>
-        <section class="bg-blue-200 w-9/12 mx-auto mt-12 p-8">
+        <section class="bg-blue-200 w-8/12 h-fit mx-auto mt-12 p-8 text-center rounded">
             <h3 class="text-3xl mb-4 font-medium">Please Login</h3>
-            <div>
-                <input class="w-9/12 block mb-2 px-3" id="user-email" type="email" placeholder="Your Email Address">
-                <input class="w-9/12 block mb-2 px-3" type="password" name="" id="user-password" placeholder="Your Password">
-                <button id="btn-submit" class="bg-amber-400 px-8 py-2 text-white font-medium rounded-lg hover:bg-sky-700">Submit</button>
+            <div class="flex-col justify-center items-center ">
+                <div class="cst-input">
+                <input class="w-4/12 mb-2 px-3" id="user-email" type="email" placeholder="Your Email Address">
+                <input class="w-4/12 mb-2 px-3" type="password" name="" id="user-password" placeholder="Your Password">
+                </div>
+                <button id="btn-submit" class="bg-sky-700 px-8 py-2 text-white font-medium rounded-lg hover:bg-cyan-700">Login</button>
             </div>
         </section>
     </main>
